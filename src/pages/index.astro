@@ -1,17 +1,22 @@
 ---
-import BuyList from '../components/BuyList.tsx';
-
-const buyList = [
-	'Controller',
-	'Bread',
-	'Water', 
-	'NoteBook',
-	'Math Book',
-	'Choco Bar',
-	'Milk'
-	]
+import Card from '../components/Card.tsx';
 ---
 
-<h1>Lista de Compras</h1>
-<BuyList buyList={buyList} />
+<div class="centro"
+<h1></h1>
+<Card />
 
+<style>
+.centro {
+	display: flex;
+	flex-direction: column;
+	align-items: center; 
+	justify-content: center; 
+	height: 100vh; 
+}
+h1{
+	font-size: 40px; 
+	font-family: Arial, sans-serif;
+}
+
+</style>
