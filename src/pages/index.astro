@@ -1,8 +1,17 @@
 ---
-import CounterButton from '../components/CounterButton.tsx';
+import BuyList from '../components/BuyList.tsx';
+
+const buyList = [
+	'Controller',
+	'Bread',
+	'Water', 
+	'NoteBook',
+	'Math Book',
+	'Choco Bar',
+	'Milk'
+	]
 ---
-</style>
-<div class="center-Button">
-     <h1>Button que incrementa en 50</h1>
-     <CounterButton client:load/>
-</div>
+
+<h1>Lista de Compras</h1>
+<BuyList buyList={buyList} />
+

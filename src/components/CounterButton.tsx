@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+/*import React, { useState } from 'react';
 
 const Counter: React.FC = () => {
     // Define el estado del contador y la función para actualizarlo
@@ -18,4 +18,4 @@ const Counter: React.FC = () => {
 };
 
 export default Counter;
-
+*/
